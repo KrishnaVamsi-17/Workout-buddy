@@ -10,7 +10,7 @@ const {
 
 } = require('../controllers/workoutController')
 
-
+// to get all workouts
 router.get('/',getWorkouts);
 
 //Get a single workout
